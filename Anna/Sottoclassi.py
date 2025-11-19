@@ -1,4 +1,6 @@
 #SOTTOCLASSI:
+from Antonia.classe_base import *
+
 
 #2.Sottoclasse: GustoPremium
 class GustoPremium(Gusto):

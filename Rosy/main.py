@@ -1,8 +1,9 @@
 
 from MenuGelateria import MenuGelateria
 from Antonia.classe_base import *
+from Anna.Sottoclassi import *
 
-def menu_gelateria():
+def menu():
     menu = MenuGelateria()
 
     # Creazione iniziale gusti

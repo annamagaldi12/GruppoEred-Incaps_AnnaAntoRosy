@@ -25,7 +25,7 @@ class MenuGelateria:
                 return True  # Gusto trovato e rimosso
         return False  # Nessun gusto trovato con quel nome
 
-    def lista_gusti(self) -> None:
+    def lista_gusti(self):
         """
         Stampa la lista dei gusti presenti nel menu.
         Differenzia tra gusti normali, vegani e premium.
@@ -37,9 +37,5 @@ class MenuGelateria:
 
             # Stampa ogni gusto in base al suo tipo
             for gusto in self._gusti:
-                if isinstance(gusto, GustoPremium):
-                    print(gusto.descrizione_premium())  # Descrizione per gusti premium
-                elif isinstance(gusto, GustoVegano):
-                    print(gusto.descrizione_vegano())   # Descrizione per gusti vegani
-                else:
+                
                     print(gusto.descrizione())         # Descrizione per gusti normali
