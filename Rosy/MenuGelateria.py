@@ -1,3 +1,6 @@
+from MenuGelateria import MenuGelateria
+from Antonia.classe_base import *
+
 class MenuGelateria:
     def __init__(self):
         # Lista interna dei gusti disponibili nel menu

@@ -1,5 +1,6 @@
 
 from MenuGelateria import MenuGelateria
+from Antonia.classe_base import *
 
 def menu_gelateria():
     menu = MenuGelateria()
