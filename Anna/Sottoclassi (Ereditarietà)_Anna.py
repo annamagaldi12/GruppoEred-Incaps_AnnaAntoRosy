@@ -1,6 +1,6 @@
-#SOTTOCLASSI: 
+#SOTTOCLASSI:
 
-# Sottoclasse: GustoPremium
+#2.Sottoclasse: GustoPremium
 class GustoPremium(Gusto):
     def __init__(self, nome, prezzo_base, allergeni=None, ingredienti_speciali=None, sovrapprezzo=0.0):
         super().__init__(nome, prezzo_base, allergeni)
